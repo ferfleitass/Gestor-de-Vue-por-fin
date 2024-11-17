@@ -54,21 +54,6 @@ export default {};
   background-color: #2c3e50; /* Color de fondo oscuro, puedes cambiarlo */
 }
 
-.navbar-nav .nav-link {
-  color: #ecf0f1; /* Color de texto blanco claro */
-}
-
-/* Estilos de los botones cuando pasas el ratón (hover) */
-.navbar-nav .nav-link:hover {
-  background-color: #3498db; /* Color de fondo cuando se pasa el ratón */
-  color: #fff; /* Asegura que el texto se mantenga blanco en hover */
-}
-
-/* Estilo para la animación en los botones */
-.hover-effect:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
 
 /* Estilo para los botones personalizados */
 .btn-custom {
@@ -79,5 +64,6 @@ export default {};
 
 .btn-custom:hover {
   background-color: #3498db; /* Color de fondo cuando se pasa el ratón */
-}
+} 
+
 </style>
